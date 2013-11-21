@@ -1,0 +1,51 @@
+{
+  "name": "page-api-to-stream",
+  "version": "1.0.0",
+  "description": "Consume any pageable API and convert it to a stream",
+  "main": "index.js",
+  "keywords": [
+    "stream",
+    "paging",
+    "page",
+    "api"
+  ],
+  "engines": [
+    "node"
+  ],
+  "directories": {
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "mocha test --require must --reporter spec --recursive"
+  },
+  "bugs": {
+    "url": "https://github.com/beaucoo/page-api-to-stream/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beaucoo/page-api-to-stream.git"
+  },
+  "author": "Rick Cotter",
+  "contributors": [
+    {
+      "name": "BeauCoo",
+      "email": "info@beaucoo.com",
+      "url": "http://beaucoo.com/"
+    },
+    {
+      "name": "Rick Cotter",
+      "email": "rcotter@gmail.com"
+    }
+  ],
+  "license": "Copyright BeauCoo Technologies Inc. 2013",
+  "readmeFilename": "README.md",
+  "private": true,
+  "devDependencies": {
+    "must": "~0.10.0",
+    "mocha": "~1.x.x"
+  },
+  "dependencies": {
+    "event-stream": "~3.0.16",
+    "lodash": "~2.3.0"
+  }
+}
