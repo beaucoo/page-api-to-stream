@@ -39,7 +39,6 @@
   ],
   "license": "Copyright BeauCoo Technologies Inc. 2013",
   "readmeFilename": "README.md",
-  "private": true,
   "devDependencies": {
     "must": "~0.10.0",
     "mocha": "~1.x.x"
